@@ -31,7 +31,7 @@ Libraries/frameworks used:
   ipfs daemon
   ```
   
-### Local node
+### Local eth node
 + Start local node
   ```shell
   npx hardhat node
@@ -43,7 +43,7 @@ Libraries/frameworks used:
 + Add local network to metamask and change its Chain ID to `31337`
 + Add some accounts with eth given by node to metamask.
 
-### DApp
+### Frontend
 
 + Configure ipfs node address and contract address in [svelte.config.js](svelte.config.js)
 + Run web app
